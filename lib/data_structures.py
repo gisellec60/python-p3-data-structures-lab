@@ -1,3 +1,5 @@
+import ipdb
+
 spicy_foods = [
     {
         "name": "Green Curry",
@@ -56,4 +58,6 @@ def get_average_heat_level(spicy_foods):
     return int(avg / len(spicy_foods))     
 
 def create_spicy_food(spicy_foods, spicy_food):
-    return spicy_foods.append(spicy_food)
+     spicy_foods.append(spicy_food)
+     return spicy_foods
+   
